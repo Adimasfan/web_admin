@@ -1,0 +1,9 @@
+.mtop100{
+    margin-top: 100px;
+}
+.bx{
+    background-color:cornflowerblue;
+    padding: 20px 40px;
+    border-radius: 5%;
+    border: 2px ridge yellow;
+}
