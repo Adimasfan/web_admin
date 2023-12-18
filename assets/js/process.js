@@ -2,7 +2,7 @@ console.log("assalamualaikum");
 // dom access-> getElementById, dom property innerHTML
 document.getElementById("judul").innerHTML="Form Login"; 
 // dom access-> getElementById, dom property STYLE
-document.getElementById("judul").style.color = "blue";
+document.getElementById("judul").style.color = "white";
 // dom access-> getElementById, dom property value
 // document.getElementById("username").value = "lp3i";
 // cara menulis fuction 
@@ -10,7 +10,7 @@ document.getElementById("judul").style.color = "blue";
 // cara pertama
 
 function ceklogin(){
-    const admin     = "myadmin"
+    const admin     = "user"
     const adminpass = "1234"
     let txt_user = document.getElementById("username").value;
     let password = document.getElementById("password").value;
@@ -22,10 +22,10 @@ function ceklogin(){
         alert("password wajib di isi")
     }
     else{
-        if(txt_user!==admin){
+        if(txt_user !== admin){
             alert("username salah!!!")
         }
-        else if(password!==adminpass){
+        else if(password !== adminpass){
             alert("password salah!!!");
         }
         else{
