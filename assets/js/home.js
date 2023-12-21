@@ -40,7 +40,7 @@ spesifikasi.forEach(function(sp){
     ulspek.appendChild(listpek);
 });
 // contoh variabel dengan value berupa data object
-let dataPerusahaan = {alamat :"jalan mojopahit no.35 SBY", telp :" 0831-2354-7566", email :" hariko@gmail.com"};
+let dataPerusahaan = {alamat :"jalan mojopahit no.35 SBY", telp :" 0831-2354-7566", email :" progress@gmail.com"};
 document.getElementById("lokasi").innerHTML = dataPerusahaan.alamat;
 document.getElementById("no").innerHTML = dataPerusahaan.telp;
 document.getElementById("email").innerHTML = dataPerusahaan.email;

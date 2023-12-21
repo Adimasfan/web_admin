@@ -1,19 +1,22 @@
-var jamKedatangan = 9.30; // Ganti dengan jam kedatangan yang sesuai
+function jamkedatangan(){
 
-// Logika kondisional
-if (jamKedatangan < 9) {
-    console.log("Anda datang jam " + jamKedatangan + ", maka Anda keren dan bisa mengikuti kelas.");
-} else if (jamKedatangan >= 9 && jamKedatangan < 10) {
-    console.log("Anda datang jam " + jamKedatangan + ", maka Anda terlambat dan bisa mengikuti kelas.");
-} else {
-    console.log("Anda datang jam " + jamKedatangan + ", maka Anda dianggap tidak masuk.");
+    let jamKedatangan = 9.30; // Ganti dengan jam kedatangan yang sesuai
 
-    // Cek alasan
-    let alasan = "sakit"; // Ganti dengan alasan yang sesuai
+    // Logika kondisional
+        if (jamKedatangan < 9) {
+            alert("maka Anda keren dan bisa mengikuti kelas");
+        } else if (jamKedatangan >= 9 && jamKedatangan < 10) {
+            alert("maka Anda terlambat dan bisa mengikuti kelas");
+        } else {
+            alert("maka Anda dianggap tidak masuk");
 
-    if (alasan === "sakit") {
-        console.log("Alasannya: lekas sembuh.");
-    } else {
-        console.log("Alasannya: bolos.");
+            // Cek alasan
+        let alasan = "sakit"; // Ganti dengan alasan yang sesuai
+
+        if (alasan === "sakit") {
+            alert("lekas sembuh.");
+        } else {
+            alert("bolos.");
+        }
     }
 }
